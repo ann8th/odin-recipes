@@ -1,0 +1,203 @@
+body {
+    background-color: darkslategray;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+ }
+
+.content {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    border: 3px solid saddlebrown;
+    height: 100%;
+    width: 85%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lemonchiffon;
+    background-image: url(../images/austin-ban-IS6RwpuEJpY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: unset;
+    padding: unset;
+    margin: 0 auto;
+    padding: 0 5px;
+
+    
+}
+
+.nav {
+    width: 75%;
+    margin: 0 auto;
+    position: fixed;
+    text-align: center;
+    z-index: 10;
+    background-color: seashell;
+    border: 1px solid saddlebrown;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin:unset;
+    padding: unset;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: fit-content;
+    margin: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+a {
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: saddlebrown;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.presentation {
+    margin-top: 90px;
+    width: 660px;
+    min-width: 230px;
+    padding: 0 20px 20px;
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    display: flex;
+    flex-flow: column;
+    opacity: 0.9;
+}
+
+h1, h2, h3 {
+    color: darkred;
+    text-align: center;
+}
+
+.story {
+    margin: 2%;
+    padding: 10px 30px;
+    width: 450px;
+    height: 400px;
+    align-self: flex-end;
+    text-align: justify;
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.author {
+    text-align: right;
+}
+
+img {
+    margin: 2%;
+    width: 600px;
+    min-width: 200px;
+    border: 1px solid saddlebrown;
+    padding: 10px;
+    align-self: center;
+    opacity: 1;
+}
+
+
+.ingredients {
+    margin: 2%;
+    padding: 15px;
+    align-self: center;
+    width: 300px;
+    text-align: left;
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    opacity: 0.8;
+}
+
+.steps {
+    margin: 5%;
+    padding: 0 25px 15px 0;
+    width: 600px;
+    text-align: justify;
+    align-self: center;
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    opacity: 0.9;
+}
+
+.steps ol {
+     list-style-type: upper-roman;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    body, .content {
+        width: 99%;
+        font-size: 14px;
+    }
+
+    .content {
+        background-image: url(../images/austin-ban-IS6RwpuEJpY-unsplash_mob.jpg);
+    }
+
+    .nav {
+        margin: unset;
+        padding: unset;
+        text-align: left;
+        background-color: unset;
+        border: unset;
+    }
+
+    .nav ul li {
+        width: 270px;
+        margin: unset;
+        padding: unset;
+        border: 1px solid saddlebrown;
+        background-color: burlywood;
+    }
+
+    .presentation {
+        margin: unset;
+        padding: unset;
+        margin-top: 130px;
+        width: fit-content;
+        height: fit-content;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+
+    }
+
+    img {
+        width: 220px;
+        margin: 0 5px;
+    }
+
+    h1 {
+        width: 200px;
+    }
+
+    .story {
+        height: fit-content;
+        margin: 20px;
+    }
+
+    .ingredients, .steps {
+        width: fit-content;
+        height: fit-content;
+        padding: 0px 20px 5px 0;
+        margin: 20px;
+    }
+    
+    .steps {
+        margin-bottom: 50px;
+    }
+
+}

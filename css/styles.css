@@ -6,9 +6,10 @@ body {
     color: darkred;
     font-size: 16px;
     font-weight: 700;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
-    
+    width: 99%;
+    display: flexbox;
 }
 
 h1, h3 {
@@ -18,7 +19,9 @@ h1, h3 {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type:none;
+    padding: unset;
+
 }
 
 a {
@@ -41,30 +44,48 @@ a:hover {
 }
 
 .today {
+    position: relative;
     opacity: 0.9;
     margin-top: 40%;
     margin-left: 50%;
-    position: relative;
 }
 
 .taste {
+    position: relative;
+    z-index: 10;
     opacity: 0.7;
     margin-top: 10%;
     margin-right: 30%; 
-    position: relative;
 }
 
 @media only screen and (max-width: 480px) {
-     
-    .today {
-        padding: 0 10px;
-        margin-top: 80%;
-        margin-left: 20%;
-        font-size: 18px;
-        font-size: 20px;
+    body {
+        background-image: url(../images/austin-ban-IS6RwpuEJpY-unsplash_mob.jpg);
+        background-color: antiquewhite;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 97%;
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        font-size: 22px;
     }
 
-    .taste {
-        padding: 0 10px;
+    .today, .taste {
+        padding: 0 15px;
+        min-height: fit-content;
+        min-width: fit-content;
+    }
+
+    .today {
+        margin-top: 60%;
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 200px;
+ }
+
+    a{
+        font-size: 24px;
     }
   }
