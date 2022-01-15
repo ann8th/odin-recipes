@@ -114,6 +114,7 @@ img {
     margin: 2%;
     padding: 15px;
     align-self: center;
+    justify-self: left;
     width: 300px;
     text-align: left;
     border: 1px outset saddlebrown;
@@ -161,7 +162,7 @@ img {
         margin: unset;
         padding: unset;
         border: 1px solid saddlebrown;
-        background-color: burlywood;
+        background-color: seashell;
     }
 
     .presentation {
