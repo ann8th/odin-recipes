@@ -1,5 +1,5 @@
 body {
-    background-color: darkslategray;
+    background-color: darkslategrey;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -7,37 +7,38 @@ body {
 
 .content {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-    border: 3px solid saddlebrown;
-    height: 100%;
-    width: 85%;
+    border: 1px solid black;
+    height: 97%;
+    width: 95%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: flex-start;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content:first baseline;
     background-color: lemonchiffon;
-    background-image: url(../images/austin-ban-IS6RwpuEJpY-unsplash.jpg);
+    background-image: url(../images/calum-lewis-vA1L1jRTM70-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: unset;
     padding: unset;
-    margin: 0 auto;
+    margin: 1% auto;
     padding: 0 5px;
 
     
 }
 
 .nav {
-    width: 75%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 1% 2%;
     position: fixed;
     text-align: center;
     z-index: 10;
     background-color: seashell;
     border: 1px solid saddlebrown;
+    opacity: 0.9;
 }
 
 .nav ul {
@@ -58,7 +59,7 @@ a {
     padding: 5px 15px;
     text-decoration: none;
     font-weight: 700;
-    color: saddlebrown;
+    color: darkslategrey;
 }
 
 a:hover {
@@ -66,8 +67,8 @@ a:hover {
 }
 
 .presentation {
-    margin-top: 90px;
-    width: 660px;
+    margin: 90px 2%;
+    width: 50%;
     min-width: 230px;
     padding: 0 20px 20px;
     border: 1px outset saddlebrown;
@@ -78,15 +79,17 @@ a:hover {
 }
 
 h1, h2, h3 {
-    color: darkred;
+    color: darkslategrey;
+    font-size: 26px;
     text-align: center;
 }
 
 .story {
     margin: 2%;
     padding: 10px 30px;
-    width: 450px;
-    height: 400px;
+    width: 40%;
+    height: 40%;
+    justify-self: right;
     align-self: flex-end;
     text-align: justify;
     border: 1px outset saddlebrown;
@@ -101,7 +104,7 @@ h1, h2, h3 {
 
 img {
     margin: 2%;
-    width: 600px;
+    max-width: 60%;
     min-width: 200px;
     border: 1px solid saddlebrown;
     padding: 10px;
@@ -113,9 +116,9 @@ img {
 .ingredients {
     margin: 2%;
     padding: 15px;
-    align-self: center;
+    align-self: flex-start;
     justify-self: left;
-    width: 300px;
+    width: 40%;
     text-align: left;
     border: 1px outset saddlebrown;
     background-color: seashell;
@@ -125,9 +128,10 @@ img {
 .steps {
     margin: 5%;
     padding: 0 25px 15px 0;
-    width: 600px;
+    width: 40%;
     text-align: justify;
-    align-self: center;
+    justify-self: right;
+    align-self: flex-end;
     border: 1px outset saddlebrown;
     background-color: seashell;
     opacity: 0.9;
@@ -146,34 +150,35 @@ img {
     }
 
     .content {
-        background-image: url(../images/austin-ban-IS6RwpuEJpY-unsplash_mob.jpg);
+        background-image: url(../images/calum-lewis-vA1L1jRTM70-unsplash._mob.jpg);
     }
 
     .nav {
-        margin: unset;
+        margin: 0 auto;
         padding: unset;
         text-align: left;
         background-color: unset;
         border: unset;
     }
 
+    .nav ul {
+        margin: 0 auto;
+    }
+
     .nav ul li {
-        width: 270px;
-        margin: unset;
+        width: 90%;
+        margin: 0 auto;
         padding: unset;
         border: 1px solid saddlebrown;
         background-color: seashell;
     }
 
     .presentation {
-        margin: unset;
         padding: unset;
-        margin-top: 130px;
-        width: fit-content;
+        margin: 130px 5% 20px 5%;
+        width: 85%;
         height: fit-content;
-        padding: 20px 10px;
-        margin-bottom: 20px;
-
+        padding: 10px;
     }
 
     img {
