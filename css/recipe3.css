@@ -1,0 +1,215 @@
+body {
+    background-color: darkslategrey;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+ }
+
+.content {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid black;
+    height: 97%;
+    width: 95%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:first baseline;
+    background-color: lemonchiffon;
+    background-image: url(../images/dari-lli-zf8yjaSHMis-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: unset;
+    padding: unset;
+    margin: 1% auto;
+    padding: 0 5px;
+
+    
+}
+
+.nav {
+    width: 90%;
+    margin: 1% 2%;
+    position: fixed;
+    text-align: center;
+    z-index: 10;
+    background-color: darkslategrey;
+    border: 1px solid saddlebrown;
+    opacity: 0.9;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin:unset;
+    padding: unset;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: fit-content;
+    margin: 2px auto;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+
+
+a {
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: seashell;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.presentation {
+    margin: 10% 2%;
+    width: 50%;
+    min-width: 230px;
+    padding: 0 20px 20px;
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    display: flex;
+    flex-flow: column;
+    opacity: 0.9;
+}
+
+h1, h2, h3 {
+    color: darkslategrey;
+    font-size: 26px;
+    text-align: center;
+}
+
+.story {
+    margin: 2%;
+    padding: 10px 30px;
+    width: 40%;
+    justify-self: right;
+    align-self: flex-end;
+    text-align: justify;
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.author {
+    text-align: right;
+}
+
+img {
+    margin: 2%;
+    max-width: 60%;
+    min-width: 200px;
+    border: 1px solid saddlebrown;
+    padding: 10px;
+    align-self: center;
+    opacity: 1;
+}
+
+
+.ingredients {
+    margin: 2%;
+    padding: 15px;
+    align-self: flex-start;
+    justify-self: left;
+    width: 40%;
+    text-align: left;
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    opacity: 0.8;
+}
+
+.steps {
+    margin: 5%;
+    padding: 0 25px 15px 0;
+    width: 40%;
+    text-align: justify;
+    justify-self: right;
+    align-self: flex-end;
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    opacity: 0.9;
+}
+
+.steps ol {
+     list-style-type: upper-roman;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    body, .content {
+        width: 99%;
+        font-size: 14px;
+    }
+
+    .content {
+        background-image: url(../images/dari-lli-zf8yjaSHMis-unsplash_mob.jpg);
+    }
+
+    .nav {
+        margin: 0 auto;
+        padding: unset;
+        text-align: left;
+        border: unset;
+        background-color: unset;
+    }
+
+    .nav ul {
+        margin: 0 auto;
+    }
+
+    .nav ul li {
+        width: 90%;
+        max-height: 10%;
+        margin: 0.5% auto;
+        padding: unset;
+        border: 1px solid seashell;
+        background-color: darkslategrey;
+    }
+
+    .presentation {
+        padding: unset;
+        margin: 130px 5% 20px 5%;
+        width: 85%;
+        height: fit-content;
+        padding: 10px;
+    }
+
+    img {
+        width: 220px;
+        margin: 0 5px;
+    }
+
+    h1 {
+        width: 200px;
+    }
+
+    .story {
+        width: fit-content;
+        margin: 20px;
+    }
+
+    .ingredients, .steps {
+        width: fit-content;
+        height: fit-content;
+        padding: 0px 20px 5px 0;
+        margin: 20px;
+    }
+    
+    .steps {
+        margin-bottom: 50px;
+    }
+    .presentation, .story, .ingredients, .steps {
+        align-self: center;
+        justify-self: center;
+    }
+
+}
