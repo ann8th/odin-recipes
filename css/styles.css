@@ -46,7 +46,7 @@ a:hover {
 
 .today, .taste {
     background-color: seashell;
-    width:max-content;
+    width: 60%;
     height: fit-content;
     padding: 3%;
     opacity: 0.8;
@@ -62,7 +62,7 @@ a:hover {
     margin: 10% 30% auto auto;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     body {
         background-image: url(../images/background-welcome-mob.jpg);
         background-color: antiquewhite;

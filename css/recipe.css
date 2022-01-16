@@ -216,10 +216,18 @@ img {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width:481px) and (max-width: 1024px) {
 
     .presentation {
-        margin-top: 15%;
+        margin-top: 12%;
     }
     
+    .nav ul li {
+        padding: 3px;
+    }
+
+    .nav {
+        margin: 0.5% 2%;
+    }
+
 }

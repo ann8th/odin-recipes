@@ -76,7 +76,7 @@ a:hover {
 }
 
 .presentation {
-    margin: 10% 2% 2%;
+    margin: 12% 2% 2%;
     width: 50%;
     min-width: 230px;
     display: flex;
@@ -216,10 +216,18 @@ img {
 
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width:481px) and (max-width: 1024px) {
 
     .presentation {
-        margin-top: 15%;
+        margin-top: 12%;
     }
     
+    .nav ul li {
+        padding: 3px;
+    }
+
+    .nav {
+        margin: 0.5% 2%;
+    }
+
 }
