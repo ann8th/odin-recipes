@@ -17,9 +17,8 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content:first baseline;
     background-color: lemonchiffon;
-    background-image: url(../images/maria-teneva-WEcAIO0N62o-unsplash.jpg);
+    background-image: url(../images/background-turkish-delight.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: unset;
@@ -68,16 +67,20 @@ a:hover {
     color: orangered;
 }
 
+.presentation, .story, .ingredients, .steps {
+
+    border: 1px outset saddlebrown;
+    background-color: seashell;
+    opacity: 0.8;
+    padding: 2%;
+}
+
 .presentation {
     margin: 10% 2%;
     width: 50%;
     min-width: 230px;
-    padding: 0 20px 20px;
-    border: 1px outset saddlebrown;
-    background-color: seashell;
     display: flex;
     flex-flow: column;
-    opacity: 0.8;
 }
 
 h1, h2, h3 {
@@ -88,15 +91,11 @@ h1, h2, h3 {
 
 .story {
     margin: 2%;
-    padding: 10px 30px;
     width: 40%;
     justify-self: right;
     align-self: flex-end;
     text-align: justify;
-    border: 1px outset saddlebrown;
-    background-color: seashell;
     z-index: 0;
-    opacity: 0.8;
 }
 
 .author {
@@ -105,7 +104,7 @@ h1, h2, h3 {
 
 img {
     margin: 2%;
-    max-width: 60%;
+    width: 70%;
     min-width: 200px;
     border: 1px solid saddlebrown;
     padding: 10px;
@@ -116,26 +115,19 @@ img {
 
 .ingredients {
     margin: 2%;
-    padding: 15px;
     align-self: flex-start;
     justify-self: left;
     width: 40%;
     text-align: left;
-    border: 1px outset saddlebrown;
-    background-color: seashell;
-    opacity: 0.8;
+
 }
 
 .steps {
-    margin: 5%;
-    padding: 0 25px 15px 0;
+    margin: 2%;
     width: 40%;
     text-align: justify;
     justify-self: right;
     align-self: flex-end;
-    border: 1px outset saddlebrown;
-    background-color: seashell;
-    opacity: 0.8;
 }
 
 .steps ol {
@@ -151,7 +143,7 @@ img {
     }
 
     .content {
-        background-image: url(../images/maria-teneva-WEcAIO0N62o-unsplash.jpg);
+        background-image: url(../images/background-turkish-delight-mob.jpg);
     }
 
     .nav {
@@ -177,33 +169,43 @@ img {
 
     .presentation {
         padding: unset;
-        margin: 130px 5% 20px 5%;
-        width: 85%;
+        margin: 130px 5% 20px;
+        width: 80%;
         height: fit-content;
         padding: 10px;
     }
 
-    img {
-        width: 220px;
-        margin: 0 5px;
+    h1 {
+        text-align: justify;
+        width: fit-content;
+        margin: 5px 20px 10px;
     }
 
-    h1 {
-        width: 200px;
+    img {
+        
+        width: 220px;
+        padding: 10px;
+        margin: 0 20px 10px;
     }
 
     .story {
         width: fit-content;
         margin: 20px;
+        padding: 20px;
     }
 
     .ingredients, .steps {
         width: fit-content;
         height: fit-content;
-        padding: 0px 20px 5px 0;
+        padding: 20px 20px 20px 0;
         margin: 20px;
     }
     
+    h2, h3 {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
     .steps {
         margin-bottom: 50px;
     }

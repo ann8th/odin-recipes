@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/calum-lewis-vA1L1jRTM70-unsplash.jpg);
+    background-image: url(../images/background-welcome.jpg);
     background-color: antiquewhite;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,49 +44,30 @@ a:hover {
     background-color: seashell;
     width: 60%;
     height: fit-content;
-    padding: 4%;
+    padding: 3%;
+    opacity: 0.8;
     border: 5px solid darkslategrey;
 }
 
 .today {
-    opacity: 0.7;
-    margin: 80% auto 20% 30%;
+    
+    margin: 80% 10% 20% 25%;
 }
 
 .taste {
     z-index: 10;
-    opacity: 0.7;
     margin: 10% 30% auto auto;
 }
 
 @media only screen and (max-width: 480px) {
     body {
-        background-image: url(../images/calum-lewis-vA1L1jRTM70-unsplash._mob.jpg);
+        background-image: url(../images/background-welcome-mob.jpg);
         background-color: antiquewhite;
         background-repeat: no-repeat;
         background-size: cover;
         width: 96%;
         box-sizing: border-box;
-    }
-    
-    /* h1 { */
-        /* font-size: 22px; */
-    /* } */
-/*  */
-    /* .today, .taste { */
-        /* padding: 0 15px; */
-        /* min-height: max-content; */
-        /* min-width: fit-content; */
-    /* } */
-/*  */
-    /* .today { */
-        /* margin-top: 60%; */
-        /* margin-left: 10%; */
-        /* margin-right: 5%; */
-        /* width: 200px; */
- /* } */
-/*  */
-    /* a{ */
-        /* font-size: 24px; */
-    /* } */
-  }
+}
+
+
+}
