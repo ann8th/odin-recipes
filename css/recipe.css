@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content:first baseline;
     background-color: lemonchiffon;
-    background-image: url(../images/calum-lewis-vA1L1jRTM70-unsplash.jpg);
+    background-image: url(../images/visual-stories-micheile-Y0ooZQS783s-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: unset;
@@ -36,7 +36,7 @@ body {
     position: fixed;
     text-align: center;
     z-index: 10;
-    background-color: seashell;
+    background-color: darkslategrey;
     border: 1px solid saddlebrown;
     opacity: 0.9;
 }
@@ -50,16 +50,18 @@ body {
 .nav ul li {
     display: inline-block;
     width: fit-content;
-    margin: 5px;
+    margin: 2px auto;
     padding: 5px;
     flex-wrap: wrap;
 }
+
+
 
 a {
     padding: 5px 15px;
     text-decoration: none;
     font-weight: 700;
-    color: darkslategrey;
+    color: seashell;
 }
 
 a:hover {
@@ -67,7 +69,7 @@ a:hover {
 }
 
 .presentation {
-    margin: 90px 2%;
+    margin: 10% 2%;
     width: 50%;
     min-width: 230px;
     padding: 0 20px 20px;
@@ -88,7 +90,6 @@ h1, h2, h3 {
     margin: 2%;
     padding: 10px 30px;
     width: 40%;
-    height: 40%;
     justify-self: right;
     align-self: flex-end;
     text-align: justify;
@@ -150,15 +151,15 @@ img {
     }
 
     .content {
-        background-image: url(../images/calum-lewis-vA1L1jRTM70-unsplash._mob.jpg);
+        background-image: url(../images/visual-stories-micheile-Y0ooZQS783s-unsplash_mob.jpg);
     }
 
     .nav {
         margin: 0 auto;
         padding: unset;
         text-align: left;
-        background-color: unset;
         border: unset;
+        background-color: unset;
     }
 
     .nav ul {
@@ -167,10 +168,11 @@ img {
 
     .nav ul li {
         width: 90%;
-        margin: 0 auto;
+        max-height: 10%;
+        margin: 0.5% auto;
         padding: unset;
-        border: 1px solid saddlebrown;
-        background-color: seashell;
+        border: 1px solid seashell;
+        background-color: darkslategrey;
     }
 
     .presentation {
@@ -191,7 +193,7 @@ img {
     }
 
     .story {
-        height: fit-content;
+        width: fit-content;
         margin: 20px;
     }
 
@@ -204,6 +206,10 @@ img {
     
     .steps {
         margin-bottom: 50px;
+    }
+    .presentation, .story, .ingredients, .steps {
+        align-self: center;
+        justify-self: center;
     }
 
 }
