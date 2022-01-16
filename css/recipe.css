@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     font-size: 18px;
     font-weight: 500;
-    border: 1px solid black;
+    border: 1px solid saddlebrown;
     height: 97%;
     width: 95%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,7 +38,7 @@ body {
     z-index: 10;
     background-color: darkslategrey;
     border: 1px solid saddlebrown;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .nav ul {
@@ -77,7 +77,7 @@ a:hover {
     background-color: seashell;
     display: flex;
     flex-flow: column;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 h1, h2, h3 {
@@ -96,7 +96,7 @@ h1, h2, h3 {
     border: 1px outset saddlebrown;
     background-color: seashell;
     z-index: 0;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .author {
@@ -135,7 +135,7 @@ img {
     align-self: flex-end;
     border: 1px outset saddlebrown;
     background-color: seashell;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .steps ol {
