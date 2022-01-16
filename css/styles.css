@@ -28,11 +28,15 @@ ul {
 
 }
 
-a {
+a, p {
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 28px;
     text-transform: lowercase;
+}
+
+p {
+    text-align: right;
 }
 
 a:hover {
@@ -42,7 +46,7 @@ a:hover {
 
 .today, .taste {
     background-color: seashell;
-    width: 60%;
+    width:max-content;
     height: fit-content;
     padding: 3%;
     opacity: 0.8;
@@ -50,7 +54,6 @@ a:hover {
 }
 
 .today {
-    
     margin: 80% 10% 20% 25%;
 }
 
